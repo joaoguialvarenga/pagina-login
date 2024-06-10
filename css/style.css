@@ -1,0 +1,83 @@
+:root {
+    box-sizing: border-box;
+    font-size: 16px ;
+    line-height: 18px;
+
+    font-family: 'Muli', sans-serif;
+    
+}
+
+body {
+    background: linear-gradient(120deg, #2980b9, #8e44ad);
+    
+    color: white;
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+
+    gap: 1rem;
+
+    overflow: hidden;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.518);
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
+.container > h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container > a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    background: rgb(255, 255, 255);
+    width: 100px ;
+    padding: 15px;
+    font-family: inherit;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+
+}
+
+
+.criar-conta > a{
+    color: rgb(255, 255, 255);
+}
+
+.text {
+    margin-top: 30px
+}
+
+.controle {
+    position: relative;
+    margin: 20px 0 40px;
+    width: 300px;
+}
+
+.controle input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px #fff solid;
+
+    display: block;
+    
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+    color: #fff;
+}   
